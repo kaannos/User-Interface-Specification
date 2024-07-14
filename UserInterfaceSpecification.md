@@ -4,11 +4,11 @@
 This document outlines the requirements and specifications for the User Management Screen UI. The screen will be used by administrators to manage users within the system.
 
 ## Requirements
-- The screen should display a list of all users in the system with **their names**, **email addresses**, **roles** and **validity**(enabled or not).
+- The screen should display a list of all users in the system with their **names**, **email addresses**, **roles** and **validity**(enabled or not).
 - The list should be **orderable** by username, email address, id, validity(true or false).
 - The ID must be **unique for each user** and assigned automatically.
 - **Only Administrators** should be able to add new users to the list and order users from the list.
-- When adding a user, the administrator should be able to specify the user's **username**, **display name**, **email address**, **phone**, **role** and **validity**.
+- When adding a user, the administrator should be able to specify the **user's** **username**, **display name**, **email address**, **phone**, **role** and **validity**.
 - The role options should include "**Guest**, "**Admin**" and "**SuperAdmin**".
 - The "validity" section should be **checkbox**.
 - The screen should have a **clear and intuitive** layout, making it easy for administrators to manage users.
